@@ -85,6 +85,7 @@ resource "aws_security_group" "ecs_sg" {
   }
 }
 
+#juhu
 # Create Database Subnet Group
 # terraform aws db subnet group
 resource "aws_db_subnet_group" "database-subnet-group" {
