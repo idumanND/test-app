@@ -16,7 +16,7 @@ data "aws_caller_identity" "current" {}
 data "aws_availability_zones" "available" {
   state = "available"
 }
-
+# juhu2
 # VPC Config for public access
 resource "aws_vpc" "lab-vpc" {
   cidr_block           = "10.0.0.0/16"
